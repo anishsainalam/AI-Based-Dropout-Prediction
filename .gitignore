@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.db
+*.db-shm
+*.db-wal
+data/artifacts/
+logs/
+frontend/test-results/
+frontend/playwright-report/
+production-data/
+deployment-assets/*.joblib
+frontend/*.tsbuildinfo

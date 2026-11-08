@@ -1,0 +1,37 @@
+# Terminate TLS at your reverse proxy. Train a real model into ./production-data/artifacts first.
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      APP_ENV: production
+      DEMO_MODE: "false"
+      COOKIE_SECURE: "true"
+      DATABASE_URL: postgresql+psycopg://continuum:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}@db:5432/continuum
+      ALLOWED_ORIGINS: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN to the HTTPS origin}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:?Set ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD of at least 12 characters}
+      ADMIN_NAME: ${ADMIN_NAME:-Administrator}
+    volumes:
+      - ./production-data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+  db:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_DB: continuum
+      POSTGRES_USER: continuum
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U continuum -d continuum"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+volumes:
+  postgres-data:

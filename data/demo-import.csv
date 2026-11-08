@@ -1,0 +1,4 @@
+student_id,name,email,department,semester,attendance,cgpa,backlogs,assignment_completion,lms_activity,credits_ratio
+DEMO2026001,Aditi Menon,aditi.demo@example.edu,Computer Science,4,93.5,8.8,0,96,24,98
+DEMO2026002,Neil Sethi,neil.demo@example.edu,Business Administration,4,65.2,6.1,2,61,9,74
+DEMO2026003,Samira Bose,samira.demo@example.edu,Electronics,4,42.8,4.2,5,39,4,46

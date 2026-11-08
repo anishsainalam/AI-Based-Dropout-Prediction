@@ -1,0 +1,761 @@
+/* Readable type and stronger foreground contrast across the full workspace. */
+:root {
+  font-family: "DM Sans Variable", "Segoe UI", sans-serif;
+  --muted: #718097;
+}
+h1,
+h2,
+h3,
+.brand,
+.stat-value,
+.prediction-number,
+.risk-donut strong,
+.academic-stats strong,
+.model-hero-meta strong {
+  font-family: "Manrope Variable", "Segoe UI", sans-serif;
+}
+.page-content h2,
+.page-content h3 {
+  color: #263950;
+}
+.page-content .muted {
+  color: #738199;
+}
+.page-heading .muted {
+  font-size: 14px;
+  color: #75829a;
+}
+.page-heading h1 {
+  font-size: 29px;
+}
+.page-heading .eyebrow {
+  font-size: 10px;
+  color: #7d8ba4;
+}
+.nav-item {
+  font-size: 14px;
+  color: #75829a;
+}
+.nav-caption {
+  font-size: 10px;
+}
+.workspace-label strong {
+  font-size: 12px;
+}
+.workspace-label small {
+  font-size: 11px;
+}
+.sidebar-user strong {
+  font-size: 12px;
+}
+.sidebar-user small {
+  font-size: 11px;
+}
+.support-note strong {
+  font-size: 12px;
+  color: #52678b;
+}
+.support-note p {
+  font-size: 12px;
+  color: #7385a3;
+}
+.support-note a {
+  font-size: 11px;
+  color: #526db3;
+}
+.breadcrumb {
+  font-size: 12px;
+}
+.environment-pill {
+  font-size: 11px;
+  color: #677898;
+}
+.global-search input {
+  font-size: 12px;
+}
+.button {
+  font-size: 14px;
+}
+.page-actions .button {
+  font-size: 13px;
+}
+.stat-heading {
+  font-size: 13px;
+  color: #6c7b94;
+}
+.stat-footer {
+  font-size: 11px;
+  color: #8190a6;
+}
+.stat-value {
+  font-size: 34px;
+}
+.stat-card {
+  padding: 20px;
+}
+.overview-meta {
+  font-size: 11px;
+  color: #8090a9;
+}
+.panel-heading h2 {
+  font-size: 16px;
+}
+.panel-heading p {
+  font-size: 12px;
+  color: #8391a9;
+}
+.chart-legend,
+.chart-grid-lines span,
+.chart-column-label {
+  font-size: 11px;
+  color: #8190aa;
+}
+.chart-caption {
+  font-size: 11px;
+  color: #8694aa;
+}
+.risk-summary-list a {
+  font-size: 12px;
+  color: #7788a4;
+}
+.risk-summary-list strong {
+  font-size: 13px;
+}
+.risk-summary-list strong small {
+  font-size: 11px;
+  color: #8693ac;
+}
+.risk-donut > div > span:last-child {
+  font-size: 11px;
+  color: #8492a9;
+}
+.risk-donut strong {
+  font-size: 30px;
+}
+.attention-panel .panel-heading h2 {
+  font-size: 15px;
+}
+.attention-panel .panel-heading p {
+  font-size: 11px;
+}
+.attention-panel .panel-heading .text-link {
+  font-size: 11px;
+}
+.student-name strong,
+.directory-panel .student-name strong {
+  font-size: 13px;
+  color: #455a77;
+}
+.student-name small,
+.directory-panel .student-name small {
+  font-size: 11px;
+  color: #8997ac;
+}
+.student-table th,
+.directory-panel .student-table th {
+  font-size: 11px;
+  color: #8190a5;
+}
+.student-table td {
+  font-size: 13px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.student-table .avatar {
+  width: 33px;
+  height: 33px;
+  font-size: 11px;
+}
+.risk-badge,
+.directory-panel .risk-badge {
+  font-size: 11px;
+}
+.risk-badge.high {
+  color: #b7604f;
+}
+.risk-badge.moderate {
+  color: #937323;
+}
+.risk-badge.low {
+  color: #516fb8;
+}
+.attendance-cell,
+.directory-panel .attendance-cell,
+.probability,
+.directory-panel .probability {
+  font-size: 12px;
+}
+.probability {
+  color: #74859f;
+}
+.department-text,
+.directory-panel .department-text {
+  font-size: 12px;
+  color: #74849c;
+}
+.followup-item > div:nth-child(2) > strong {
+  font-size: 12px;
+  color: #5a6e8d;
+}
+.followup-item > div:nth-child(2) > span {
+  font-size: 11px;
+  color: #8593ac;
+}
+.followup-item small {
+  font-size: 10px;
+  color: #96a3b9;
+}
+.followup-date strong {
+  font-size: 16px;
+}
+.followup-date span {
+  font-size: 10px;
+}
+.followup-date {
+  width: 40px;
+  height: 45px;
+}
+.followup-item {
+  padding: 17px 0;
+}
+.followups-panel .panel-bottom .text-link {
+  font-size: 12px;
+}
+.demo-footnote {
+  font-size: 11px;
+  color: #7a8baa;
+}
+.demo-footnote strong {
+  color: #647ca3;
+}
+.small-tag {
+  font-size: 11px;
+  color: #78879f;
+}
+.text-link {
+  font-size: 12px;
+}
+.segment-tabs button {
+  font-size: 12px;
+  color: #78879f;
+}
+.segment-tabs button > span {
+  font-size: 11px;
+}
+.result-count,
+.pagination {
+  font-size: 12px;
+}
+.search-field input {
+  font-size: 14px;
+}
+.filter-controls select {
+  font-size: 12px;
+  color: #6d809e;
+}
+.back-link {
+  font-size: 12px;
+}
+.profile-identity p {
+  font-size: 12px;
+}
+.profile-identity small {
+  font-size: 11px;
+}
+.academic-stats > div > span {
+  font-size: 12px;
+  color: #7b8ca5;
+}
+.academic-stats strong {
+  color: #3e577a;
+}
+.academic-stats strong small {
+  font-size: 11px;
+  color: #8593a9;
+}
+.explanation-label {
+  font-size: 12px;
+  color: #6d819e;
+}
+.explanation-label strong {
+  font-size: 13px;
+}
+.explanation > small {
+  font-size: 11px;
+  color: #8a9ab3;
+}
+.explanation-key {
+  font-size: 11px;
+}
+.method-note {
+  font-size: 12px;
+  color: #8292ab;
+}
+.method-note p {
+  line-height: 1.8;
+}
+.profile-plan p {
+  font-size: 14px;
+  color: #7186a1;
+}
+.profile-plan small {
+  font-size: 11px;
+  color: #8899b1;
+}
+.plan-title > strong {
+  font-size: 14px;
+  color: #54708e;
+}
+.profile-plan .text-button {
+  font-size: 12px;
+}
+.prediction-label {
+  font-size: 11px;
+  color: #8d7d7a;
+}
+.prediction-card > p {
+  font-size: 14px;
+  color: #8c7774;
+}
+.prediction-card.low > p {
+  color: #667f9f;
+}
+.prediction-card.moderate > p {
+  color: #8b7d54;
+}
+.prediction-version {
+  font-size: 11px;
+  color: #968f9c;
+}
+.prediction-version small {
+  font-size: 10px;
+}
+.scale-labels {
+  font-size: 11px;
+  color: #8e8a96;
+}
+.scenario-fields label > span {
+  font-size: 12px;
+  color: #7b8da8;
+}
+.scenario-fields label strong {
+  font-size: 13px;
+  color: #6e84a8;
+}
+.scenario-fields .button {
+  font-size: 13px;
+}
+.scenario-disclaimer {
+  font-size: 11px;
+  color: #8b9bb2;
+}
+.scenario-panel .panel-heading h2 {
+  font-size: 15px;
+}
+.scenario-panel .panel-heading p {
+  font-size: 11px;
+}
+.model-help strong {
+  font-size: 12px;
+}
+.model-help small {
+  font-size: 11px;
+}
+.status-pill {
+  font-size: 11px;
+}
+.status-pill.open {
+  color: #5879b6;
+}
+.status-pill.resolved,
+.status-pill.imported {
+  color: #4f846e;
+}
+.import-steps > span {
+  font-size: 13px;
+  color: #8b9bb3;
+}
+.import-guide > p,
+.import-principle p {
+  font-size: 14px;
+  color: #7b8fa9;
+}
+.import-guide > .button {
+  font-size: 13px;
+}
+.import-guide > .text-button {
+  font-size: 12px;
+}
+.check-list li {
+  font-size: 13px;
+  color: #7c92ae;
+}
+.guide-note {
+  font-size: 12px;
+  color: #7c90ab;
+}
+.dropzone p {
+  font-size: 14px;
+  color: #7e92ad;
+}
+.dropzone > small {
+  font-size: 11px;
+  color: #8f9eb5;
+}
+.upload-panel-footer {
+  font-size: 12px;
+  color: #8595ad;
+}
+.review-summary h3 {
+  font-size: 14px;
+}
+.review-summary p {
+  font-size: 12px;
+  color: #8295ae;
+}
+.preview-caption {
+  font-size: 12px;
+}
+.import-review th,
+.import-review td,
+.import-history th,
+.import-history td {
+  font-size: 12px;
+}
+.import-confirm > span {
+  font-size: 11px;
+  color: #8395ad;
+}
+.import-success p {
+  font-size: 14px;
+  color: #668d7a;
+}
+.file-name {
+  color: #758aa6;
+}
+.model-hero h2 {
+  color: #eff4ff;
+}
+.model-hero p:last-child {
+  font-size: 13px;
+  color: #b6c8e8;
+}
+.model-hero-meta > span {
+  font-size: 12px;
+  color: #b1c5e8;
+}
+.model-hero .eyebrow {
+  color: #b3c6e5;
+}
+.model-metrics .stat-card > .muted:first-child {
+  font-size: 13px;
+}
+.model-metrics .stat-card > small {
+  font-size: 11px;
+}
+.section-inline-title > span {
+  font-size: 12px;
+  color: #8292a9;
+}
+.model-comparison th,
+.model-comparison td {
+  font-size: 13px;
+}
+.model-name {
+  color: #7189aa;
+}
+.selected-model .model-name {
+  color: #4c73b8;
+}
+.model-comparison .panel-bottom {
+  font-size: 12px;
+}
+.importance-chart > div {
+  font-size: 12px;
+  color: #748ba8;
+}
+.importance-chart strong {
+  font-size: 12px;
+  color: #6d89b4;
+}
+.confusion-matrix > span {
+  font-size: 11px;
+  color: #7c91af;
+}
+.confusion-matrix small {
+  font-size: 10px;
+  color: #828faa;
+}
+.confusion-matrix > strong.correct {
+  color: #6589c8;
+}
+.confusion-matrix > strong {
+  color: #ad8466;
+}
+.methodology-panel p {
+  font-size: 14px;
+  color: #7f94af;
+}
+.methodology-panel small {
+  font-size: 11px;
+  color: #8e9fb8;
+}
+.methodology-panel h3 {
+  font-size: 15px;
+}
+.limitations > li {
+  font-size: 13px;
+  color: #7d92ad;
+}
+.model-provenance > span {
+  font-size: 11px;
+  color: #8a9ab2;
+}
+.model-provenance strong {
+  font-size: 12px;
+  color: #758bad;
+}
+.support-card > p {
+  font-size: 14px;
+  color: #738aa6;
+}
+.support-card h3 {
+  font-size: 16px;
+}
+.support-due {
+  font-size: 12px;
+  color: #8298b7;
+}
+.support-owner {
+  font-size: 11px;
+  color: #8fa1ba;
+}
+.support-owner strong {
+  color: #748cab;
+}
+.support-card-actions .button,
+.support-card-actions .text-link {
+  font-size: 12px;
+}
+.settings-form > label {
+  font-size: 14px;
+  color: #7287a6;
+}
+.settings-form > p {
+  font-size: 12px;
+  color: #8b9cb6;
+}
+.account-details dt {
+  font-size: 12px;
+  color: #8297b2;
+}
+.account-details dd {
+  font-size: 14px;
+  color: #637c9e;
+}
+.login-form h2 {
+  color: #203557;
+}
+.login-form > .muted {
+  font-size: 14px;
+  color: #7a8da9;
+}
+.login-form label {
+  font-size: 13px;
+  color: #657e9f;
+}
+.login-form input {
+  font-size: 14px;
+}
+.login-form .secondary {
+  color: #5979ae;
+}
+.login-help,
+.demo-login-note {
+  font-size: 12px;
+  color: #8799b3;
+}
+.login-form .eyebrow {
+  font-size: 10px;
+  color: #7c93b2;
+}
+.state-card p {
+  font-size: 14px;
+  color: #8194ae;
+}
+@media (max-width: 1190px) {
+  .page-heading h1 {
+    font-size: 25px;
+  }
+  .page-heading {
+    flex-wrap: wrap;
+  }
+  .page-heading .muted {
+    max-width: none;
+  }
+  .stat-card {
+    padding: 17px;
+  }
+  .stat-heading {
+    font-size: 12px;
+  }
+  .stat-footer {
+    font-size: 10px;
+  }
+  .chart-column-label {
+    font-size: 9px;
+  }
+  .chart-caption {
+    font-size: 10px;
+  }
+  .attention-panel .panel-heading h2 {
+    font-size: 13px;
+  }
+  .attention-panel .panel-heading .text-link {
+    font-size: 10px;
+  }
+  .chart-legend {
+    font-size: 10px;
+  }
+  .nav-item {
+    font-size: 13px;
+  }
+  .workspace-label strong {
+    font-size: 11px;
+  }
+  .sidebar-user strong {
+    font-size: 11px;
+  }
+  .support-card-actions .button,
+  .support-card-actions .text-link {
+    font-size: 11px;
+  }
+  .importance-chart > div {
+    font-size: 11px;
+  }
+  .methodology-panel p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 720px) {
+  .page-heading h1 {
+    font-size: 26px;
+  }
+  .page-heading .muted {
+    font-size: 14px;
+  }
+  .page-heading .eyebrow {
+    font-size: 9px;
+  }
+  .stat-card {
+    padding: 15px;
+  }
+  .stat-heading {
+    font-size: 12px;
+  }
+  .stat-footer {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+  .stat-value {
+    font-size: 32px;
+  }
+  .page-actions .button {
+    font-size: 12px;
+  }
+  .overview-meta {
+    font-size: 11px;
+  }
+  .panel-heading h2 {
+    font-size: 15px;
+  }
+  .panel-heading p {
+    font-size: 12px;
+  }
+  .chart-column-label {
+    font-size: 9px;
+  }
+  .chart-legend {
+    font-size: 10px;
+  }
+  .risk-summary-list a {
+    font-size: 11px;
+  }
+  .risk-summary-list strong {
+    font-size: 12px;
+  }
+  .risk-summary-list strong small {
+    font-size: 10px;
+  }
+  .attention-panel .panel-heading {
+    flex-wrap: wrap;
+  }
+  .attention-panel .panel-heading h2 {
+    font-size: 14px;
+  }
+  .student-name strong {
+    font-size: 12px;
+  }
+  .student-name small {
+    font-size: 10px;
+  }
+  .attention-panel .risk-badge {
+    font-size: 10px;
+  }
+  .attention-panel .probability {
+    font-size: 11px;
+  }
+  .followup-list {
+    grid-template-columns: 1fr;
+  }
+  .followup-item > div:nth-child(2) > strong {
+    font-size: 13px;
+  }
+  .followup-item > div:nth-child(2) > span {
+    font-size: 12px;
+  }
+  .followup-item small {
+    font-size: 11px;
+  }
+  .demo-footnote {
+    font-size: 11px;
+  }
+  .directory-tabs {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .segment-tabs button {
+    font-size: 11px;
+    padding: 7px 9px;
+  }
+  .pagination {
+    font-size: 11px;
+  }
+  .import-steps > span {
+    font-size: 10px;
+  }
+  .model-comparison table {
+    min-width: 780px;
+  }
+  .model-hero-meta > span {
+    font-size: 11px;
+  }
+  .section-inline-title > span {
+    font-size: 11px;
+  }
+  .model-metrics .stat-card > small {
+    font-size: 11px;
+  }
+  .support-card h3 {
+    font-size: 17px;
+  }
+  .nav-item {
+    font-size: 14px;
+  }
+  .brand {
+    font-size: 25px;
+  }
+  .sidebar-user strong {
+    font-size: 12px;
+  }
+}

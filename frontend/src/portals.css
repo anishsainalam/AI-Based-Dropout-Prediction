@@ -1,0 +1,517 @@
+.portal-login {
+  max-width: 410px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.portal-choice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 23px 0 26px;
+}
+.portal-choice > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e0e7f2;
+  border-radius: 10px;
+  background: #fff;
+  padding: 14px 12px;
+  color: #7d90ad;
+  text-align: left;
+}
+.portal-choice > button.selected {
+  color: #385fd7;
+  background: #f0f5ff;
+  border-color: #9cb4f4;
+  box-shadow: 0 0 0 2px #456bea0b;
+}
+.portal-choice > button > span {
+  font-size: 14px;
+  font-weight: 650;
+}
+.portal-choice small {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: #8799b8;
+}
+.institution-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.85;
+  color: #8194b1;
+  margin-top: 18px;
+}
+.institution-note svg {
+  margin-top: 3px;
+}
+.admin-demo {
+  font-size: 11px;
+  margin-top: 13px;
+}
+.student-portal {
+  min-height: 100vh;
+  background: #f6f8fd;
+}
+.student-portal-header {
+  height: 85px;
+  background: white;
+  border-bottom: 1px solid #e3e9f4;
+  display: flex;
+  align-items: center;
+  padding: 0 max(28px, calc((100vw - 1180px) / 2));
+  gap: 35px;
+}
+.student-portal-header > div {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.student-portal-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #7d91b0;
+  font-size: 13px;
+}
+.student-portal-main {
+  max-width: 1180px;
+  padding: 40px 28px;
+  margin: auto;
+}
+.student-portal-main .page-heading {
+  align-items: flex-start;
+}
+.student-portal-main .page-heading h1 {
+  font-size: 32px;
+}
+.student-portal-main .page-heading .muted {
+  font-size: 14px;
+  line-height: 1.9;
+  max-width: 750px;
+}
+.student-welcome {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  background: linear-gradient(100deg, #203e78, #355ca2);
+  border: 1px solid #294b87;
+  border-radius: 15px;
+  padding: 27px 29px;
+  color: #c8d9f8;
+  margin: 29px 0;
+}
+.student-welcome h2 {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 8px;
+}
+.student-welcome p {
+  font-size: 13px;
+  color: #bacfed;
+}
+.student-welcome small {
+  display: block;
+  font-size: 11px;
+  color: #94b0dc;
+  margin-top: 8px;
+}
+.student-welcome > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  font-size: 11px;
+  color: #c0d2ee;
+  white-space: nowrap;
+}
+.student-welcome .avatar {
+  box-shadow: none;
+}
+.student-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+  margin-bottom: 26px;
+}
+.student-metric-grid .stat-card > .muted {
+  font-size: 13px;
+  color: #7d8ea8;
+}
+.student-metric-grid .stat-card > small {
+  font-size: 12px;
+}
+.student-next .panel-heading {
+  padding: 24px;
+}
+.student-next .panel-heading h2 {
+  font-size: 19px;
+}
+.student-next .panel-heading p {
+  font-size: 13px;
+}
+.student-shared-plans {
+  padding: 0 25px 15px;
+}
+.student-shared-plans article {
+  padding: 22px 0;
+  border-top: 1px solid #e7ecf5;
+}
+.student-shared-plans article > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.student-shared-plans h3 {
+  color: #45638b;
+  font-size: 16px;
+}
+.student-shared-plans p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #758caa;
+  margin: 12px 0;
+}
+.student-shared-plans small {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: #8ba0be;
+}
+.student-portal-footer {
+  text-align: center;
+  padding: 20px 20px 30px;
+  color: #97a6bd;
+  font-size: 12px;
+}
+.checkbox-label {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 9px !important;
+  font-size: 12px !important;
+  line-height: 1.8;
+  color: #6e84a3 !important;
+}
+.checkbox-label > input {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  accent-color: #3155e7;
+  margin: 3px 0 0;
+}
+.account-table {
+  min-width: 760px;
+}
+.account-table td {
+  font-size: 12px;
+}
+.account-table td small {
+  color: #8f9eb4;
+  font-size: 11px;
+  margin-top: 4px;
+}
+.account-actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.account-actions .text-button {
+  font-size: 11px;
+}
+.provision-list {
+  max-height: 340px;
+  overflow: auto;
+  margin-top: 15px;
+}
+.provision-list > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e8edf6;
+}
+.provision-list > div > div {
+  flex: 1;
+}
+.provision-list strong {
+  display: block;
+  font-size: 13px;
+}
+.provision-list small {
+  display: block;
+  font-size: 11px;
+  color: #92a2ba;
+}
+.issued-credentials {
+  padding: 18px;
+  background: #f5f8ff;
+  border: 1px solid #dfe8f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.issued-credentials label {
+  font-size: 12px;
+}
+.issued-credentials input {
+  font-family: Consolas, monospace;
+  font-size: 15px;
+  color: #3b5886;
+}
+.credentials-warning {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #8b7c62;
+  background: #fff9ee;
+  padding: 14px;
+  border-radius: 8px;
+  margin-top: 17px;
+}
+.column-mapper {
+  margin-bottom: 24px;
+}
+.mapper-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 17px 21px;
+  background: #f4f7ff;
+  color: #6f85ab;
+  font-size: 12px;
+  line-height: 1.9;
+  border-top: 1px solid #e9eef8;
+  border-bottom: 1px solid #e9eef8;
+}
+.mapper-intro svg {
+  margin-top: 3px;
+}
+.mapping-header,
+.mapping-row {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  gap: 15px;
+  padding: 17px 21px;
+  align-items: start;
+}
+.mapping-header {
+  font-size: 11px;
+  color: #8195b0;
+  background: #fbfcff;
+}
+.mapping-row {
+  border-top: 1px solid #edf1f8;
+}
+.mapping-row strong {
+  font-size: 12px;
+  font-weight: 600;
+  color: #637d9f;
+  display: block;
+}
+.mapping-row small {
+  font-size: 10px;
+  color: #98a8bf;
+  display: block;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+.mapping-row select {
+  font-size: 11px;
+  padding: 9px 23px 9px 9px;
+}
+.mapping-row input {
+  font-size: 11px;
+  margin-top: 8px;
+}
+.required-star {
+  color: #bd8c78;
+  margin-left: 3px;
+}
+.mapping-derived {
+  border-top: 1px solid #e4ebf7;
+  background: #fbfcff;
+}
+.mapping-derived summary {
+  padding: 20px;
+  color: #5c7fb6;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mapping-derived > p {
+  font-size: 12px;
+  padding: 0 21px 18px;
+  color: #8699b4;
+  line-height: 1.8;
+}
+.mapper-footer {
+  padding: 22px;
+  border-top: 1px solid #e5ebf7;
+}
+.mapper-footer > p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #99a8be;
+  margin: 10px 0 18px;
+}
+.mapper-error {
+  padding: 17px 20px 0;
+}
+.mapper-footer .button {
+  font-size: 12px;
+}
+.mapper-footer .checkbox-label {
+  font-size: 12px !important;
+}
+@media (max-width: 1100px) {
+  .student-welcome > span:last-child {
+    display: none;
+  }
+  .mapping-header,
+  .mapping-row {
+    grid-template-columns: 0.9fr 1.2fr;
+  }
+  .mapping-row > select {
+    grid-column: 2;
+  }
+  .mapping-row > span:empty {
+    display: none;
+  }
+  .mapping-header > span:last-child {
+    display: none;
+  }
+  .mapping-row {
+    gap: 9px 13px;
+  }
+  .student-portal-header {
+    padding: 0 28px;
+  }
+  .student-welcome {
+    padding: 23px;
+  }
+}
+@media (max-width: 720px) {
+  .portal-choice {
+    gap: 9px;
+  }
+  .portal-choice > button {
+    padding: 12px 9px;
+    gap: 8px;
+  }
+  .portal-choice > button > span {
+    font-size: 13px;
+  }
+  .portal-choice small {
+    font-size: 9px;
+  }
+  .student-portal-header {
+    height: 72px;
+    padding: 0 20px;
+    gap: 12px;
+  }
+  .student-portal-header .brand {
+    font-size: 22px;
+  }
+  .student-portal-label {
+    display: none;
+  }
+  .student-portal-header > div {
+    gap: 10px;
+  }
+  .student-portal-main {
+    padding: 25px 18px;
+  }
+  .student-portal-main .page-heading h1 {
+    font-size: 27px;
+  }
+  .student-welcome {
+    gap: 16px;
+    padding: 23px 18px;
+    align-items: flex-start;
+  }
+  .student-welcome .avatar.large {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .student-welcome h2 {
+    font-size: 19px;
+  }
+  .student-welcome p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  .student-welcome small {
+    font-size: 10px;
+  }
+  .student-metric-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+  }
+  .student-metric-grid .stat-card > .muted {
+    font-size: 12px;
+  }
+  .student-metric-grid .stat-card > small {
+    font-size: 11px;
+  }
+  .student-metric-grid .stat-value {
+    font-size: 29px;
+  }
+  .mapping-header {
+    display: none;
+  }
+  .mapping-row {
+    grid-template-columns: 1fr;
+    padding: 17px;
+  }
+  .mapping-row > select {
+    grid-column: auto;
+  }
+  .mapping-row strong {
+    font-size: 13px;
+  }
+  .mapping-row select {
+    font-size: 12px;
+  }
+  .mapping-row > div > small {
+    font-size: 11px;
+  }
+  .mapping-derived .mapping-row {
+    grid-template-columns: 1fr;
+  }
+  .mapper-intro {
+    font-size: 12px;
+    padding: 17px;
+  }
+  .column-mapper .panel-heading {
+    flex-wrap: wrap;
+  }
+  .account-table th {
+    font-size: 12px;
+  }
+  .provision-list strong {
+    font-size: 12px;
+  }
+  .provision-list .button {
+    font-size: 11px;
+  }
+  .provision-list .avatar {
+    display: none;
+  }
+  .student-shared-plans small {
+    flex-wrap: wrap;
+  }
+  .student-shared-plans h3 {
+    font-size: 15px;
+  }
+  .credentials-warning {
+    font-size: 12px;
+  }
+}
